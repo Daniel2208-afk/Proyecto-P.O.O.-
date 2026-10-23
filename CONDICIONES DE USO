@@ -1,0 +1,11 @@
+1. Lo que necesitas en tu computadora para ejecutar nuestro programa: Para que puedas correr nuestro código sin problemas y de manera estable, tu entorno debe cumplir
+con un par de condiciones básicas. Necesitas un compilador que soporte al menos el estándar C++11 (o uno más actual), ya que el sistema utiliza herramientas modernas
+como bucles simplificados y control de pausas temporales. Es muy importante que uses el compilador de C++ (g++) y no uno simple de C (gcc), porque el de C no sabe cómo
+procesar las librerías estándar ni las clases que armamos. Además, tu equipo debe tener bien habilitado el soporte para hilos para que las animaciones de texto y las
+pantallas de carga funcionen fluidamente.
+
+2. Los lugares o herramientas donde nuestro código no va a funcionar: Nuestro programa te va a arrojar errores si intentas correrlo en entornos no compatibles o muy 
+desactualizados. Por ejemplo, si tratas de abrirlo con un compilador viejo o con un programa que solo procesa C puro, la computadora no va a entender la estructura de 
+las clases y se detendrá. Tampoco va a funcionar si tienes instalada una versión muy antigua y recortada de MinGW (de esas de 32 bits que vienen sin soporte para hilos),
+ya que el programa se quedará trabado al buscar los componentes de tiempo. Y, desde luego, ten en cuenta que el proyecto no está diseñado para microcontroladores o 
+sistemas de hardware muy limitados que no tienen una computadora por detrás capaz de soportar las librerías completas de C++.
